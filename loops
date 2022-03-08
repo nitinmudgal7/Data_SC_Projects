@@ -1,3 +1,26 @@
+# whileloop
+
+counter <- 1 #assigned value of counter to 1
+#running while loop, it will check value of counter and print it untill it is less than 12
+
+while(counter <12){print(counter)
+  counter <- counter+1} # will add 1 to the value of counter every time it executes
+
+
+#Forloop
+
+counter <- 1
+while(counter<12){
+  print(counter) 
+  counter <- counter +1}
+
+for(i in 1:5){
+  print("Hello R")
+}
+
+
+****Few Real time operations*****
+
 #printfibonacci
 rm(list=ls())
 t1<- -1

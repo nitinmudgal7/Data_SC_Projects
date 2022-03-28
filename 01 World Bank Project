@@ -22,6 +22,8 @@ summary(stats) #provides a quick summary, how each column holds the data
 #convert a column into factor/levels
 library(magrittr)
 stats$Income.Group %<>% factor
+#way2
+factor(merged$Region)
 
 #using $ sign
 stats$Birth.rate #Dataframe name followed by $ followed by column name provides that particular column of data frame
